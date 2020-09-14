@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Servlet18-ServletJdbcIntegreation">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="Servlet18-ServletJdbcIntegreation"/>
+        <property name="java-output-path" value="/Servlet18-ServletJdbcIntegreation/build/classes"/>
+    </wb-module>
+</project-modules>

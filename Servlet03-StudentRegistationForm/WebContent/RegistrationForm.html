@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Register Form</title>
+</head>
+<body >
+	<h1>Welcome To Student Register form</h1>
+	
+	<form action="insert" method="post">
+		<pre>
+            Please Enter Your Name :   <input type="text" name="YourName"><br />
+            Contact Number :           <input type="number" name="YourContact"><br />
+            Please enter your mail :   <input type="email" name="YourMail"><br />
+            Please Choose Your Course :<select name="YourCourse">
+                                           <option>Core Java</option>
+                                           <option>Advanced Java</option>
+                                           <option>Spring</option>
+                                           <option>Hibernate</option>
+                                           <option>WebServices</option>
+                                           <option>Tools</option>
+                                           <option>Sql</option>
+                                           <option>Angular</option>
+                                        </select>
+             Gender :   <input type="radio" name="YourGender" value="Male">Male
+                        <input type="radio" name="YourGender" value="Female">Female
+             Address :  <textarea name="YourAddress"></textarea>
+             
+             Language :  <input type="checkbox" name="YourLanguage" value="Telugu">Telugu
+                         <input type="checkbox" name="YourLanguage" value="Hindi">Hindi
+                         <input type="checkbox" name="YourLanguage" value="English">English
+                        
+                        <input type="submit" value="Register">
+             </pre>
+	   </form>
+  </body>
+</html>
